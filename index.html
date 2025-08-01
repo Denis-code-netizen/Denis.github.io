@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Image search</title>
+
+	 <link rel="shortcut icon" href="cat.jfif" />
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=photo_camera" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+	
+</head>
+	<body>
+		<main class="container">
+			<h1>
+				Image Search
+			</h1>
+			<form id="search-form" class="search-form">
+				<input type="search" id="query" placeholder="Search images" />
+				<button type="submit">
+					<span class="material-symbols-outlined">
+						search
+					</span>
+				</button>
+			</form>
+
+			<div id="result" class="grid">
+				
+			</div>
+		</main>
+		<div class="footer">
+			<a href="https://unsplash.com/developers">
+				<img src="uns.svg">
+			</a>
+		</div>
+	<script src="script.js"></script>
+	</body>
+</html>
