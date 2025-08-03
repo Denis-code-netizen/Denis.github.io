@@ -21,7 +21,6 @@ const onSearchFormSubmit = (e) => {
         return;
     }
     
-    // Сброс параметров для нового поиска
     currentPage = 1;
     currentQuery = query;
     searchResult.innerHTML = "";
@@ -156,5 +155,6 @@ const loadMoreResults = () => {
 const buildApiUrl = (query, page) => {
     return `https://api.unsplash.com/search/photos?query=${query}&orientation=landscape&page=${page}`;
 };
+
 
 setupListeners();
